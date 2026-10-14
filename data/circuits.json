@@ -1,0 +1,19 @@
+{
+  "_about": "Hand-maintained circuit facts for the Pitwall app that no free API provides. Keys are Jolpica circuitIds.",
+  "americas": {
+    "lengthKm": 5.513,
+    "laps": 56,
+    "compounds": { "HARD": "C1", "MEDIUM": "C3", "SOFT": "C4" },
+    "ratings": [
+      { "name": "Traction", "value": 4 },
+      { "name": "Tyre stress", "value": 4 },
+      { "name": "Asphalt grip", "value": 3 },
+      { "name": "Braking", "value": 3 },
+      { "name": "Asphalt abrasion", "value": 3 },
+      { "name": "Lateral", "value": 4 },
+      { "name": "Track evolution", "value": 4 },
+      { "name": "Downforce", "value": 4 }
+    ],
+    "source": "Pirelli Motorsport, 2026 United States GP"
+  }
+}
