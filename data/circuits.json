@@ -1,19 +1,337 @@
 {
-  "_about": "Hand-maintained circuit facts for the Pitwall app that no free API provides. Keys are Jolpica circuitIds.",
+  "_about": "Hand-maintained circuit facts for the Pitwall app that no free API provides. Keys are Jolpica circuitIds. straightMode.zones: from = corner after which the zone opens (0 = last corner of the lap), to = corner it ends before, after = metres after 'from' if published.",
   "americas": {
     "lengthKm": 5.513,
     "laps": 56,
-    "compounds": { "HARD": "C1", "MEDIUM": "C3", "SOFT": "C4" },
+    "compounds": {
+      "HARD": "C1",
+      "MEDIUM": "C3",
+      "SOFT": "C4"
+    },
     "ratings": [
-      { "name": "Traction", "value": 4 },
-      { "name": "Tyre stress", "value": 4 },
-      { "name": "Asphalt grip", "value": 3 },
-      { "name": "Braking", "value": 3 },
-      { "name": "Asphalt abrasion", "value": 3 },
-      { "name": "Lateral", "value": 4 },
-      { "name": "Track evolution", "value": 4 },
-      { "name": "Downforce", "value": 4 }
+      {
+        "name": "Traction",
+        "value": 4
+      },
+      {
+        "name": "Tyre stress",
+        "value": 4
+      },
+      {
+        "name": "Asphalt grip",
+        "value": 3
+      },
+      {
+        "name": "Braking",
+        "value": 3
+      },
+      {
+        "name": "Asphalt abrasion",
+        "value": 3
+      },
+      {
+        "name": "Lateral",
+        "value": 4
+      },
+      {
+        "name": "Track evolution",
+        "value": 4
+      },
+      {
+        "name": "Downforce",
+        "value": 4
+      }
     ],
-    "source": "Pirelli Motorsport, 2026 United States GP"
+    "source": "Pirelli Motorsport, 2026 United States GP",
+    "turns": 20
+  },
+  "albert_park": {
+    "lengthKm": 5.278,
+    "turns": 14,
+    "straightMode": {
+      "zones": [
+        {
+          "from": 0,
+          "to": 1
+        },
+        {
+          "from": 2,
+          "to": 3
+        },
+        {
+          "from": 5,
+          "to": 6
+        },
+        {
+          "from": 8,
+          "to": 9
+        },
+        {
+          "from": 10,
+          "to": 11
+        }
+      ],
+      "source": "FIA, 2026 Australian GP (via PlanetF1)"
+    }
+  },
+  "baku": {
+    "lengthKm": 6.003,
+    "turns": 20,
+    "straightMode": {
+      "zones": [
+        {
+          "from": 19,
+          "to": 1
+        },
+        {
+          "from": 2,
+          "to": 3
+        }
+      ],
+      "source": "FIA, 2026 Azerbaijan GP (via PlanetF1)"
+    }
+  },
+  "catalunya": {
+    "lengthKm": 4.657,
+    "turns": 14
+  },
+  "hungaroring": {
+    "lengthKm": 4.381,
+    "turns": 14,
+    "straightMode": {
+      "zones": [
+        {
+          "from": 0,
+          "to": 1
+        },
+        {
+          "from": 1,
+          "to": 2
+        },
+        {
+          "from": 3,
+          "to": 4
+        },
+        {
+          "from": 11,
+          "to": 12
+        }
+      ],
+      "source": "FIA, 2026 Hungarian GP (via PlanetF1)"
+    }
+  },
+  "interlagos": {
+    "lengthKm": 4.309,
+    "turns": 15
+  },
+  "jeddah": {
+    "lengthKm": 6.174,
+    "turns": 27
+  },
+  "losail": {
+    "lengthKm": 5.419,
+    "turns": 16
+  },
+  "marina_bay": {
+    "lengthKm": 4.94,
+    "turns": 19,
+    "straightMode": {
+      "zones": [
+        {
+          "from": 19,
+          "to": 1,
+          "after": 30
+        },
+        {
+          "from": 5,
+          "to": 7,
+          "after": 50
+        },
+        {
+          "from": 9,
+          "to": 10,
+          "after": 70
+        },
+        {
+          "from": 13,
+          "to": 14,
+          "after": 115
+        },
+        {
+          "from": 15,
+          "to": 16,
+          "after": 50
+        }
+      ],
+      "source": "FIA, 2026 Singapore GP (via PlanetF1)"
+    }
+  },
+  "miami": {
+    "lengthKm": 5.412,
+    "turns": 19
+  },
+  "monaco": {
+    "lengthKm": 3.337,
+    "turns": 19,
+    "straightMode": {
+      "zones": [],
+      "source": "FIA, 2026 Monaco GP: no Straight Mode zones"
+    }
+  },
+  "monza": {
+    "lengthKm": 5.793,
+    "turns": 11,
+    "straightMode": {
+      "zones": [
+        {
+          "from": 0,
+          "to": 1
+        },
+        {
+          "from": 3,
+          "to": 4
+        },
+        {
+          "from": 7,
+          "to": 8
+        },
+        {
+          "from": 10,
+          "to": 11
+        }
+      ],
+      "source": "FIA, 2026 Italian GP (via PlanetF1)"
+    }
+  },
+  "red_bull_ring": {
+    "lengthKm": 4.318,
+    "turns": 10
+  },
+  "rodriguez": {
+    "lengthKm": 4.304,
+    "turns": 17
+  },
+  "sepang": {
+    "lengthKm": 5.543,
+    "turns": 15,
+    "straightMode": {
+      "zones": [
+        {
+          "from": 0,
+          "to": 1
+        },
+        {
+          "from": 3,
+          "to": 4
+        },
+        {
+          "from": 8,
+          "to": 9
+        },
+        {
+          "from": 14,
+          "to": 15
+        }
+      ],
+      "source": "FIA, 2026 Bahrain GP at Sepang (via PlanetF1)"
+    }
+  },
+  "shanghai": {
+    "lengthKm": 5.451,
+    "turns": 16
+  },
+  "silverstone": {
+    "lengthKm": 5.891,
+    "turns": 18
+  },
+  "spa": {
+    "lengthKm": 7.004,
+    "turns": 19,
+    "straightMode": {
+      "zones": [
+        {
+          "from": 0,
+          "to": 1
+        },
+        {
+          "from": 1,
+          "to": 2
+        },
+        {
+          "from": 4,
+          "to": 5
+        },
+        {
+          "from": 15,
+          "to": 17
+        },
+        {
+          "from": 17,
+          "to": 18
+        }
+      ],
+      "source": "FIA, 2026 Belgian GP (via PlanetF1)"
+    }
+  },
+  "suzuka": {
+    "lengthKm": 5.807,
+    "turns": 18,
+    "straightMode": {
+      "zones": [
+        {
+          "from": 0,
+          "to": 1
+        },
+        {
+          "from": 14,
+          "to": 15
+        }
+      ],
+      "source": "FIA, 2026 Japanese GP (via PlanetF1)"
+    }
+  },
+  "vegas": {
+    "lengthKm": 6.201,
+    "turns": 17
+  },
+  "villeneuve": {
+    "lengthKm": 4.361,
+    "turns": 14
+  },
+  "yas_marina": {
+    "lengthKm": 5.281,
+    "turns": 16
+  },
+  "zandvoort": {
+    "lengthKm": 4.259,
+    "turns": 14,
+    "straightMode": {
+      "zones": [
+        {
+          "from": 0,
+          "to": 1
+        },
+        {
+          "from": 10,
+          "to": 11
+        }
+      ],
+      "source": "FIA, 2026 Dutch GP (via PlanetF1)"
+    }
+  },
+  "madring": {
+    "straightMode": {
+      "zones": [
+        {
+          "from": 0,
+          "to": 1
+        },
+        {
+          "from": 3,
+          "to": 4
+        }
+      ],
+      "source": "FIA, 2026 Spanish GP (via PlanetF1)"
+    }
   }
 }
